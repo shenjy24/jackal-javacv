@@ -6,11 +6,11 @@ import org.bytedeco.opencv.opencv_core.IplImage;
 
 import javax.swing.*;
 
-public class CameraDemo {
+public class VideoHandler {
 
     public static void main(String[] args) {
         try {
-            CameraDemo app = new CameraDemo();
+            VideoHandler app = new VideoHandler();
             //new CameraDemo().grab();
             app.record("output.mp4", 25);
         } catch (Exception e) {
